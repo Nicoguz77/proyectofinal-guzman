@@ -1,0 +1,51 @@
+.contenedor3{
+    width: 100%;
+    text-align: center;
+    grid-area: contenedor3;
+    
+    h2{
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    hr{
+        width: 100px;
+        height: 4px;
+        margin: auto;
+        border-style: none;
+        background: -webkit-linear-gradient(left, red, blue, violet);
+    }
+    p{
+        margin-top: 40px;
+        font-size: 20px;
+        color: black;
+    }
+}
+
+.boton-contenedor3{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+        button{
+        width: 100%;
+        max-width: 400px;
+        height: 60px;
+        background-color: gold;
+        border-style: none;
+        border-radius: 10px;
+        color: black;
+        font-size: 16px;
+        margin: auto;
+        cursor: pointer;
+        transition: opacity 300ms;
+    }
+    button:hover{
+        opacity: 0.8;
+    }
+}
+
+.leer-contenedor3{
+    width: 100%;
+    max-width: 400px;
+    height: 60px;
+    margin: auto;
+}

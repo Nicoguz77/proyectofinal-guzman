@@ -1,0 +1,54 @@
+.contenedor2{
+    width: 100%;
+    text-align: center;
+    grid-area: contenedor2;
+
+    h2{
+    font-weight: 100;
+    margin-top: 20px;
+    }
+    hr{
+    width: 100px;
+    height: 4px;
+    margin: auto;
+    border-style: none;
+    background: -webkit-linear-gradient(left, red, blue, violet);
+    }
+}
+
+.contenedor-detalles{
+    width: 100%;
+
+    .item-detalles{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    }
+    .icono-detalles{
+    width: 80%;
+    height: 200px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    }
+    img{
+        width: 100%;
+        max-width: 400px;
+        font-size: 200px;
+        padding: 46px;
+        margin: auto;
+    }
+    h3{
+        width: 100%;
+        font: 100;
+        font-size: 18px;
+        margin-top: 80px;
+    }
+    p{
+        width: 100%;
+        font-size: 18px;
+        margin-top: 20px;
+        letter-spacing: 1px;
+        color: black;
+    }
+}
