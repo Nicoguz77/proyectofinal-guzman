@@ -12,7 +12,7 @@ body {
 }
 
 .contenedor1 {
-  height: 100%;
+  height: 70%;
   width: 100%;
   background-color: silver;
 }
@@ -153,8 +153,9 @@ footer {
 .contenedor-detalles h3 {
   width: 100%;
   font: 100;
-  font-size: 18px;
+  font-size: 30px;
   margin-top: 80px;
+  background-color: gold;
 }
 .contenedor-detalles p {
   width: 100%;
